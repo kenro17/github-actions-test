@@ -13,9 +13,9 @@ jobs:
             is_ubuntu_8: "true"
         exclude:
           - os: ubuntu-latest
-            node-version: 6
+            node_version: 6
           - os: macos-latest
-            node-version: 8
+            node_version: 8
       # fail-fast: true
     runs-on: ${{ matrix.os }}
     env:
